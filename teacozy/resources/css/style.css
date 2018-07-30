@@ -1,0 +1,135 @@
+
+body {
+  font-family: Helvetica,cursive;
+  color: seashell;
+  margin: 0;
+  background-color: black;
+}
+h1 {
+  font-size: 26px;
+}
+h2,
+h3,
+h4 {
+  font-size: 19px;
+}
+p {
+  font-size: 18px;
+}
+/*top part*/
+header {
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  z-index: 3;
+  border-bottom: 1px solid seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+.logo img {
+  height: 50px;
+}
+span {
+  text-decoration: underline;
+  display: inline-block;
+  margin-right: 15px;
+}
+a {
+  color: seashell;
+}
+/*Intro*/
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+}
+.heading {
+  display: flex;
+  background: black;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+}
+.heading h2 {
+  font-size: 26px;
+  margin: 0;
+  padding: 10px 10px;
+}
+.heading h4 {
+  font-size: 19px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+/*Pics Featured*/
+#featured {
+  display: block;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.picscontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pics {
+  display: block;
+}
+.pics img {
+  height: 200px;
+  margin: 10px;
+}
+/*locations*/
+
+.locations-wrapper{
+  display: block;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 50px;
+  margin: auto;
+}
+.locations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  flex-grow: 1;
+  padding-top: 10px;
+}
+.locations h2 {
+  display: block;
+}
+.loc {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  background-color: black;
+  text-align: center;
+  width: 300px;
+  margin: 40px;
+}
+
+/*contact and footer*/
+.contact {
+  height: 200px;
+  text-align: center;
+  margin: auto;
+}
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
